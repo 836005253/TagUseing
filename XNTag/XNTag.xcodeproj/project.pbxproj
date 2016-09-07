@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06BEAB361D782B5300277F21 /* DragTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BEAB351D782B5300277F21 /* DragTagViewController.m */; };
+		06D59F331D793478000ED738 /* hobby.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06D59F321D793478000ED738 /* hobby.plist */; };
+		06D59F361D7EA830000ED738 /* GroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D59F351D7EA830000ED738 /* GroupItem.m */; };
+		06D59F391D7EAA04000ED738 /* TagGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D59F381D7EAA04000ED738 /* TagGroupItem.m */; };
+		06D59F3C1D7EAD8E000ED738 /* TagItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D59F3B1D7EAD8E000ED738 /* TagItems.m */; };
+		06D59F421D7EB46B000ED738 /* HobbyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D59F411D7EB46B000ED738 /* HobbyTableViewCell.m */; };
+		06D59F491D7EBA41000ED738 /* TagGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D59F471D7EBA41000ED738 /* TagGroupTableViewCell.m */; };
+		06D59F4A1D7EBA41000ED738 /* TagGroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D59F481D7EBA41000ED738 /* TagGroupTableViewCell.xib */; };
+		06D59F4E1D7EC182000ED738 /* TagCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D59F4C1D7EC182000ED738 /* TagCollectionViewCell.m */; };
+		06D59F4F1D7EC182000ED738 /* TagCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D59F4D1D7EC182000ED738 /* TagCollectionViewCell.xib */; };
+		06D59F541D7FC185000ED738 /* GroupHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D59F531D7FC185000ED738 /* GroupHeaderView.m */; };
+		06D59F581D7FC1E9000ED738 /* GroupHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D59F571D7FC1E9000ED738 /* GroupHeaderView.xib */; };
+		06DC18091D767E5E00075DA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DC18081D767E5E00075DA4 /* main.m */; };
+		06DC180C1D767E5E00075DA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DC180B1D767E5E00075DA4 /* AppDelegate.m */; };
+		06DC180F1D767E5E00075DA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DC180E1D767E5E00075DA4 /* ViewController.m */; };
+		06DC18121D767E5E00075DA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06DC18101D767E5E00075DA4 /* Main.storyboard */; };
+		06DC18151D767E5E00075DA4 /* XNTag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06DC18131D767E5E00075DA4 /* XNTag.xcdatamodeld */; };
+		06DC18171D767E5E00075DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DC18161D767E5E00075DA4 /* Assets.xcassets */; };
+		06DC181A1D767E5E00075DA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06DC18181D767E5E00075DA4 /* LaunchScreen.storyboard */; };
+		06DC18251D767E5E00075DA4 /* XNTagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DC18241D767E5E00075DA4 /* XNTagTests.m */; };
+		06DC18301D767E5E00075DA4 /* XNTagUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DC182F1D767E5E00075DA4 /* XNTagUITests.m */; };
+		06DC18481D7680DF00075DA4 /* AddTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DC18461D7680DF00075DA4 /* AddTagViewController.m */; };
+		06DC184D1D76810F00075DA4 /* TagUsingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DC184B1D76810F00075DA4 /* TagUsingViewController.m */; };
+		06DC18521D768E3400075DA4 /* TagList.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DC18511D768E3400075DA4 /* TagList.m */; };
+		06DC18551D76C0E700075DA4 /* TagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DC18541D76C0E700075DA4 /* TagButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06DC18211D767E5E00075DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06DC17FC1D767E5E00075DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06DC18031D767E5E00075DA4;
+			remoteInfo = XNTag;
+		};
+		06DC182C1D767E5E00075DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06DC17FC1D767E5E00075DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06DC18031D767E5E00075DA4;
+			remoteInfo = XNTag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06BEAB341D782B5300277F21 /* DragTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragTagViewController.h; sourceTree = "<group>"; };
+		06BEAB351D782B5300277F21 /* DragTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragTagViewController.m; sourceTree = "<group>"; };
+		06D59F321D793478000ED738 /* hobby.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = hobby.plist; sourceTree = "<group>"; };
+		06D59F341D7EA830000ED738 /* GroupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupItem.h; sourceTree = "<group>"; };
+		06D59F351D7EA830000ED738 /* GroupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupItem.m; sourceTree = "<group>"; };
+		06D59F371D7EAA04000ED738 /* TagGroupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagGroupItem.h; sourceTree = "<group>"; };
+		06D59F381D7EAA04000ED738 /* TagGroupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagGroupItem.m; sourceTree = "<group>"; };
+		06D59F3A1D7EAD8E000ED738 /* TagItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagItems.h; sourceTree = "<group>"; };
+		06D59F3B1D7EAD8E000ED738 /* TagItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagItems.m; sourceTree = "<group>"; };
+		06D59F401D7EB46B000ED738 /* HobbyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HobbyTableViewCell.h; sourceTree = "<group>"; };
+		06D59F411D7EB46B000ED738 /* HobbyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HobbyTableViewCell.m; sourceTree = "<group>"; };
+		06D59F461D7EBA41000ED738 /* TagGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagGroupTableViewCell.h; sourceTree = "<group>"; };
+		06D59F471D7EBA41000ED738 /* TagGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagGroupTableViewCell.m; sourceTree = "<group>"; };
+		06D59F481D7EBA41000ED738 /* TagGroupTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagGroupTableViewCell.xib; sourceTree = "<group>"; };
+		06D59F4B1D7EC182000ED738 /* TagCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagCollectionViewCell.h; sourceTree = "<group>"; };
+		06D59F4C1D7EC182000ED738 /* TagCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagCollectionViewCell.m; sourceTree = "<group>"; };
+		06D59F4D1D7EC182000ED738 /* TagCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagCollectionViewCell.xib; sourceTree = "<group>"; };
+		06D59F521D7FC185000ED738 /* GroupHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupHeaderView.h; sourceTree = "<group>"; };
+		06D59F531D7FC185000ED738 /* GroupHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupHeaderView.m; sourceTree = "<group>"; };
+		06D59F571D7FC1E9000ED738 /* GroupHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupHeaderView.xib; sourceTree = "<group>"; };
+		06DC18041D767E5E00075DA4 /* XNTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XNTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DC18081D767E5E00075DA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06DC180A1D767E5E00075DA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06DC180B1D767E5E00075DA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06DC180D1D767E5E00075DA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06DC180E1D767E5E00075DA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06DC18111D767E5E00075DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06DC18141D767E5E00075DA4 /* XNTag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XNTag.xcdatamodel; sourceTree = "<group>"; };
+		06DC18161D767E5E00075DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06DC18191D767E5E00075DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06DC181B1D767E5E00075DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06DC18201D767E5E00075DA4 /* XNTagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XNTagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DC18241D767E5E00075DA4 /* XNTagTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XNTagTests.m; sourceTree = "<group>"; };
+		06DC18261D767E5E00075DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06DC182B1D767E5E00075DA4 /* XNTagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XNTagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DC182F1D767E5E00075DA4 /* XNTagUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XNTagUITests.m; sourceTree = "<group>"; };
+		06DC18311D767E5E00075DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06DC18451D7680DF00075DA4 /* AddTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTagViewController.h; sourceTree = "<group>"; };
+		06DC18461D7680DF00075DA4 /* AddTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTagViewController.m; sourceTree = "<group>"; };
+		06DC184A1D76810F00075DA4 /* TagUsingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagUsingViewController.h; sourceTree = "<group>"; };
+		06DC184B1D76810F00075DA4 /* TagUsingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagUsingViewController.m; sourceTree = "<group>"; };
+		06DC18501D768E3400075DA4 /* TagList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagList.h; sourceTree = "<group>"; };
+		06DC18511D768E3400075DA4 /* TagList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagList.m; sourceTree = "<group>"; };
+		06DC18531D76C0E700075DA4 /* TagButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagButton.h; sourceTree = "<group>"; };
+		06DC18541D76C0E700075DA4 /* TagButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06DC18011D767E5E00075DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DC181D1D767E5E00075DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DC18281D767E5E00075DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06BEAB331D782B2F00277F21 /* DragTag */ = {
+			isa = PBXGroup;
+			children = (
+				06BEAB341D782B5300277F21 /* DragTagViewController.h */,
+				06BEAB351D782B5300277F21 /* DragTagViewController.m */,
+			);
+			name = DragTag;
+			sourceTree = "<group>";
+		};
+		06D59F501D7EC463000ED738 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				06D59F401D7EB46B000ED738 /* HobbyTableViewCell.h */,
+				06D59F411D7EB46B000ED738 /* HobbyTableViewCell.m */,
+				06D59F461D7EBA41000ED738 /* TagGroupTableViewCell.h */,
+				06D59F471D7EBA41000ED738 /* TagGroupTableViewCell.m */,
+				06D59F481D7EBA41000ED738 /* TagGroupTableViewCell.xib */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		06D59F511D7EC47D000ED738 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				06D59F4B1D7EC182000ED738 /* TagCollectionViewCell.h */,
+				06D59F4C1D7EC182000ED738 /* TagCollectionViewCell.m */,
+				06D59F4D1D7EC182000ED738 /* TagCollectionViewCell.xib */,
+			);
+			name = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		06DC17FB1D767E5E00075DA4 = {
+			isa = PBXGroup;
+			children = (
+				06D59F321D793478000ED738 /* hobby.plist */,
+				06DC18061D767E5E00075DA4 /* XNTag */,
+				06DC18231D767E5E00075DA4 /* XNTagTests */,
+				06DC182E1D767E5E00075DA4 /* XNTagUITests */,
+				06DC18051D767E5E00075DA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06DC18051D767E5E00075DA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06DC18041D767E5E00075DA4 /* XNTag.app */,
+				06DC18201D767E5E00075DA4 /* XNTagTests.xctest */,
+				06DC182B1D767E5E00075DA4 /* XNTagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06DC18061D767E5E00075DA4 /* XNTag */ = {
+			isa = PBXGroup;
+			children = (
+				06DC180A1D767E5E00075DA4 /* AppDelegate.h */,
+				06DC180B1D767E5E00075DA4 /* AppDelegate.m */,
+				06DC180D1D767E5E00075DA4 /* ViewController.h */,
+				06DC180E1D767E5E00075DA4 /* ViewController.m */,
+				06BEAB331D782B2F00277F21 /* DragTag */,
+				06DC184F1D768E1100075DA4 /* TagList */,
+				06DC183E1D76800C00075DA4 /* TagUsing */,
+				06DC183D1D767FDC00075DA4 /* AddTag */,
+				06DC18101D767E5E00075DA4 /* Main.storyboard */,
+				06DC18161D767E5E00075DA4 /* Assets.xcassets */,
+				06DC18181D767E5E00075DA4 /* LaunchScreen.storyboard */,
+				06DC181B1D767E5E00075DA4 /* Info.plist */,
+				06DC18131D767E5E00075DA4 /* XNTag.xcdatamodeld */,
+				06DC18071D767E5E00075DA4 /* Supporting Files */,
+			);
+			path = XNTag;
+			sourceTree = "<group>";
+		};
+		06DC18071D767E5E00075DA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06DC18081D767E5E00075DA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06DC18231D767E5E00075DA4 /* XNTagTests */ = {
+			isa = PBXGroup;
+			children = (
+				06DC18241D767E5E00075DA4 /* XNTagTests.m */,
+				06DC18261D767E5E00075DA4 /* Info.plist */,
+			);
+			path = XNTagTests;
+			sourceTree = "<group>";
+		};
+		06DC182E1D767E5E00075DA4 /* XNTagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06DC182F1D767E5E00075DA4 /* XNTagUITests.m */,
+				06DC18311D767E5E00075DA4 /* Info.plist */,
+			);
+			path = XNTagUITests;
+			sourceTree = "<group>";
+		};
+		06DC183D1D767FDC00075DA4 /* AddTag */ = {
+			isa = PBXGroup;
+			children = (
+				06DC18411D76808100075DA4 /* Controller */,
+			);
+			name = AddTag;
+			sourceTree = "<group>";
+		};
+		06DC183E1D76800C00075DA4 /* TagUsing */ = {
+			isa = PBXGroup;
+			children = (
+				06DC18441D7680A000075DA4 /* Controller */,
+				06DC18431D76809900075DA4 /* Model */,
+				06DC18421D76808E00075DA4 /* View */,
+			);
+			name = TagUsing;
+			sourceTree = "<group>";
+		};
+		06DC18411D76808100075DA4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				06DC18451D7680DF00075DA4 /* AddTagViewController.h */,
+				06DC18461D7680DF00075DA4 /* AddTagViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		06DC18421D76808E00075DA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06D59F521D7FC185000ED738 /* GroupHeaderView.h */,
+				06D59F531D7FC185000ED738 /* GroupHeaderView.m */,
+				06D59F571D7FC1E9000ED738 /* GroupHeaderView.xib */,
+				06D59F501D7EC463000ED738 /* TableViewCell */,
+				06D59F511D7EC47D000ED738 /* CollectionViewCell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		06DC18431D76809900075DA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06D59F341D7EA830000ED738 /* GroupItem.h */,
+				06D59F351D7EA830000ED738 /* GroupItem.m */,
+				06D59F371D7EAA04000ED738 /* TagGroupItem.h */,
+				06D59F381D7EAA04000ED738 /* TagGroupItem.m */,
+				06D59F3A1D7EAD8E000ED738 /* TagItems.h */,
+				06D59F3B1D7EAD8E000ED738 /* TagItems.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		06DC18441D7680A000075DA4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				06DC184A1D76810F00075DA4 /* TagUsingViewController.h */,
+				06DC184B1D76810F00075DA4 /* TagUsingViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		06DC184F1D768E1100075DA4 /* TagList */ = {
+			isa = PBXGroup;
+			children = (
+				06DC18501D768E3400075DA4 /* TagList.h */,
+				06DC18511D768E3400075DA4 /* TagList.m */,
+				06DC18531D76C0E700075DA4 /* TagButton.h */,
+				06DC18541D76C0E700075DA4 /* TagButton.m */,
+			);
+			name = TagList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06DC18031D767E5E00075DA4 /* XNTag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06DC18341D767E5E00075DA4 /* Build configuration list for PBXNativeTarget "XNTag" */;
+			buildPhases = (
+				06DC18001D767E5E00075DA4 /* Sources */,
+				06DC18011D767E5E00075DA4 /* Frameworks */,
+				06DC18021D767E5E00075DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XNTag;
+			productName = XNTag;
+			productReference = 06DC18041D767E5E00075DA4 /* XNTag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06DC181F1D767E5E00075DA4 /* XNTagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06DC18371D767E5E00075DA4 /* Build configuration list for PBXNativeTarget "XNTagTests" */;
+			buildPhases = (
+				06DC181C1D767E5E00075DA4 /* Sources */,
+				06DC181D1D767E5E00075DA4 /* Frameworks */,
+				06DC181E1D767E5E00075DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06DC18221D767E5E00075DA4 /* PBXTargetDependency */,
+			);
+			name = XNTagTests;
+			productName = XNTagTests;
+			productReference = 06DC18201D767E5E00075DA4 /* XNTagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06DC182A1D767E5E00075DA4 /* XNTagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06DC183A1D767E5E00075DA4 /* Build configuration list for PBXNativeTarget "XNTagUITests" */;
+			buildPhases = (
+				06DC18271D767E5E00075DA4 /* Sources */,
+				06DC18281D767E5E00075DA4 /* Frameworks */,
+				06DC18291D767E5E00075DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06DC182D1D767E5E00075DA4 /* PBXTargetDependency */,
+			);
+			name = XNTagUITests;
+			productName = XNTagUITests;
+			productReference = 06DC182B1D767E5E00075DA4 /* XNTagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06DC17FC1D767E5E00075DA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = XCN;
+				TargetAttributes = {
+					06DC18031D767E5E00075DA4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					06DC181F1D767E5E00075DA4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JVRXTCA8CM;
+						TestTargetID = 06DC18031D767E5E00075DA4;
+					};
+					06DC182A1D767E5E00075DA4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JVRXTCA8CM;
+						TestTargetID = 06DC18031D767E5E00075DA4;
+					};
+				};
+			};
+			buildConfigurationList = 06DC17FF1D767E5E00075DA4 /* Build configuration list for PBXProject "XNTag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06DC17FB1D767E5E00075DA4;
+			productRefGroup = 06DC18051D767E5E00075DA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06DC18031D767E5E00075DA4 /* XNTag */,
+				06DC181F1D767E5E00075DA4 /* XNTagTests */,
+				06DC182A1D767E5E00075DA4 /* XNTagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06DC18021D767E5E00075DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DC181A1D767E5E00075DA4 /* LaunchScreen.storyboard in Resources */,
+				06D59F331D793478000ED738 /* hobby.plist in Resources */,
+				06D59F581D7FC1E9000ED738 /* GroupHeaderView.xib in Resources */,
+				06DC18171D767E5E00075DA4 /* Assets.xcassets in Resources */,
+				06D59F4F1D7EC182000ED738 /* TagCollectionViewCell.xib in Resources */,
+				06D59F4A1D7EBA41000ED738 /* TagGroupTableViewCell.xib in Resources */,
+				06DC18121D767E5E00075DA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DC181E1D767E5E00075DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DC18291D767E5E00075DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06DC18001D767E5E00075DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D59F361D7EA830000ED738 /* GroupItem.m in Sources */,
+				06DC184D1D76810F00075DA4 /* TagUsingViewController.m in Sources */,
+				06BEAB361D782B5300277F21 /* DragTagViewController.m in Sources */,
+				06D59F3C1D7EAD8E000ED738 /* TagItems.m in Sources */,
+				06D59F4E1D7EC182000ED738 /* TagCollectionViewCell.m in Sources */,
+				06DC18151D767E5E00075DA4 /* XNTag.xcdatamodeld in Sources */,
+				06DC180F1D767E5E00075DA4 /* ViewController.m in Sources */,
+				06DC180C1D767E5E00075DA4 /* AppDelegate.m in Sources */,
+				06DC18481D7680DF00075DA4 /* AddTagViewController.m in Sources */,
+				06D59F491D7EBA41000ED738 /* TagGroupTableViewCell.m in Sources */,
+				06DC18521D768E3400075DA4 /* TagList.m in Sources */,
+				06DC18551D76C0E700075DA4 /* TagButton.m in Sources */,
+				06D59F421D7EB46B000ED738 /* HobbyTableViewCell.m in Sources */,
+				06D59F541D7FC185000ED738 /* GroupHeaderView.m in Sources */,
+				06D59F391D7EAA04000ED738 /* TagGroupItem.m in Sources */,
+				06DC18091D767E5E00075DA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DC181C1D767E5E00075DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DC18251D767E5E00075DA4 /* XNTagTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DC18271D767E5E00075DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DC18301D767E5E00075DA4 /* XNTagUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06DC18221D767E5E00075DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06DC18031D767E5E00075DA4 /* XNTag */;
+			targetProxy = 06DC18211D767E5E00075DA4 /* PBXContainerItemProxy */;
+		};
+		06DC182D1D767E5E00075DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06DC18031D767E5E00075DA4 /* XNTag */;
+			targetProxy = 06DC182C1D767E5E00075DA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06DC18101D767E5E00075DA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06DC18111D767E5E00075DA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06DC18181D767E5E00075DA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06DC18191D767E5E00075DA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06DC18321D767E5E00075DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06DC18331D767E5E00075DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06DC18351D767E5E00075DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = XNTag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunna.cn.XNTag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06DC18361D767E5E00075DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = XNTag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunna.cn.XNTag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06DC18381D767E5E00075DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XNTagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunna.cn.XNTagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XNTag.app/XNTag";
+			};
+			name = Debug;
+		};
+		06DC18391D767E5E00075DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XNTagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunna.cn.XNTagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XNTag.app/XNTag";
+			};
+			name = Release;
+		};
+		06DC183B1D767E5E00075DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XNTagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunna.cn.XNTagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XNTag;
+			};
+			name = Debug;
+		};
+		06DC183C1D767E5E00075DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XNTagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunna.cn.XNTagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XNTag;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06DC17FF1D767E5E00075DA4 /* Build configuration list for PBXProject "XNTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DC18321D767E5E00075DA4 /* Debug */,
+				06DC18331D767E5E00075DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06DC18341D767E5E00075DA4 /* Build configuration list for PBXNativeTarget "XNTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DC18351D767E5E00075DA4 /* Debug */,
+				06DC18361D767E5E00075DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06DC18371D767E5E00075DA4 /* Build configuration list for PBXNativeTarget "XNTagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DC18381D767E5E00075DA4 /* Debug */,
+				06DC18391D767E5E00075DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06DC183A1D767E5E00075DA4 /* Build configuration list for PBXNativeTarget "XNTagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DC183B1D767E5E00075DA4 /* Debug */,
+				06DC183C1D767E5E00075DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		06DC18131D767E5E00075DA4 /* XNTag.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				06DC18141D767E5E00075DA4 /* XNTag.xcdatamodel */,
+			);
+			currentVersion = 06DC18141D767E5E00075DA4 /* XNTag.xcdatamodel */;
+			path = XNTag.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 06DC17FC1D767E5E00075DA4 /* Project object */;
+}
